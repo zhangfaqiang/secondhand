@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>发布闲置————二手商城</title>
+    <link rel="stylesheet" href="__PUBLIC__/Q-css/release.css" media="screen" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Uploadify/uploadify.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Q-css/style.css">
+    <script type="text/javascript" src="__PUBLIC__/jquery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Uploadify/jquery.uploadify.min.js"></script>
+</head>
+<style>
+    #xiala {
+        width: 350px;
+        height: 40px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #ccc;
+        position: relative;
+    }
+
+    select {
+        border: none;
+        outline: none;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        appearance: black;
+        -webkit-appearance: black;
+        -moz-appearance: black;
+    }
+
+    #xiala:after {
+        content: "";
+        width: 14px;
+        height: 8px;
+        position: absolute;
+        right: 20px;
+        top: 45%;
+        pointer-events: none;
+    }
+</style>
+<script>
+    var userId = "{:session('userid')}";//用户id
+
+    //添加图片点击事件
+    function uploadImg() {
+        $('#upload_button').click();
+    }
+
+    //上传图片
+    function upload() {
+        $('#upload_button').uploadify({
+            'uploader': "{:U('Home/Release/upload')}",
+        });
+    }
+
+    $(document).ready(function () {
+        if (userId != null && userId != "") {
+            $('#userInfo').append('<li id="user">{$Think.session.username}</li>');
+            $('#userInfo').append('<li><a>|</a></li>');
+            $('#userInfo').append('<li><a style="cursor:pointer">个人中心</a></li>');
+            $('#userInfo').append('<li><a>|</a></li>');
+            $('#userInfo').append('<li><a style="cursor:pointer">消息通知</a></li>');
+            $('#userInfo').append('<li><a>|</a></li>');
+            $('#userInfo').append("<li><a style=\"cursor:pointer\" href='{:U(\"Home/OrderCentre/orderCentre\")}'>我的订单</a></li>");
+            $('#userInfo').append('<li><a>|</a></li>');
+            $('#userInfo').append("<li><a style=\"cursor:pointer\" href='{:U(\"Home/Main/exitLogin\")}'>退出</a></li>");
+        } else {
+            $('#userInfo').append("<li><a style=\"cursor:pointer\" href='{:U(\"Home/Login/login\")}'>登陆</a></li>");
+            $('#userInfo').append('<li><a>|</a></li>');
+            $('#userInfo').append("<li><a style=\"cursor:pointer\" href='{:U(\"Home/Register/register\")}'>注册</a></li>");
+        }
+    });
+</script>
+<body>
+<header>
+    <div class="top center">
+        <div class="left fl">
+            <ul>
+                <li><a href="">小米商城</a></li>
+                <li>|</li>
+                <li><a href="">MIUI</a></li>
+                <li>|</li>
+                <li><a href="">米聊</a></li>
+                <li>|</li>
+                <li><a href="">游戏</a></li>
+                <li>|</li>
+                <li><a href="">多看阅读</a></li>
+                <li>|</li>
+                <li><a href="">云服务</a></li>
+                <li>|</li>
+                <li><a href="">金融</a></li>
+                <li>|</li>
+                <li><a href="">小米商城移动版</a></li>
+                <li>|</li>
+                <li><a href="">问题反馈</a></li>
+                <li>|</li>
+                <li><a href="">Select Region</a></li>
+                <div class="clear"></div>
+            </ul>
+        </div>
+        <div class="right fr">
+            <div class="gouwuche fr"><a onclick="checkLogin()">购物车</a></div>
+            <div class="fr">
+                <ul id="userInfo">
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</header>
+
+<div style="margin-top: 50px;" class="container">
+    <form id="contact" action="" method="post">
+        <h3>发布闲置</h3>
+        <h4>请留下您的联系方式，我们会在24小时内与您回复!</h4>
+        <fieldset>
+            <input placeholder="标题 品类品牌型号都是买家喜欢搜索的" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+            <textarea placeholder="描述一下宝贝的转手原因、入手渠道和使用感受" tabindex="2" required></textarea>
+        </fieldset>
+        <fieldset>
+            <input placeholder="价格(整数)" type="text" onkeyup="value=value.replace(/[^\d]/g,'')" tabindex="3" required>
+        </fieldset>
+        <div id="xiala">
+            <select style="text-align: center" name="">
+                <option value="0">请选择分类</option>
+                <option value="0">手机配件</option>
+                <option value="0">电玩随身听</option>
+                <option value="0">相机/摄像机</option>
+                <option value="0">电脑/电脑周边</option>
+                <option value="0">手机品牌</option>
+                <option value="0">女装</option>
+                <option value="0">男装</option>
+                <option value="0">配饰</option>
+                <option value="0">生活用品</option>
+                <option value="0">箱包</option>
+            </select>
+        </div>
+        <img style="width: 64px; height: 64px; margin-top: 10px;" src="__PUBLIC__/Q-image/test.jpg">
+        <img onclick="uploadImg()" style="width: 64px; height: 64px; margin-top: 10px; cursor: pointer;"
+             src="__PUBLIC__/Q-image/tianjia.png">
+        <input onchange="upload()" id="upload_button" type="file" multiple="true" style="display: none;"/>
+        <fieldset style="margin-top:10px;">
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">提交</button>
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>

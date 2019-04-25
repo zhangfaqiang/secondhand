@@ -1,0 +1,2801 @@
+[ 2018-11-11T08:21:43+08:00 ] ::1 /SecondHand/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2018-11-11T08:21:45+08:00 ] ::1 /SecondHand/Admin/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2018-11-11T08:21:49+08:00 ] ::1 /SecondHand/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0719s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000901s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006805s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004595s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2018-11-11T08:21:51+08:00 ] ::1 /SecondHand/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2018-11-11T08:21:53+08:00 ] ::1 /SecondHand/Admin/Index/info.html?_=1541895712108
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+NOTIC: [2] Use of undefined constant MYSQL_VERSION - assumed 'MYSQL_VERSION' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 45 行.
+NOTIC: [2] Use of undefined constant WWWROOT - assumed 'WWWROOT' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2018-11-11T08:21:53+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.1109s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=0 )  [ RunTime:0.0008s ]
+
+[ 2018-11-11T08:21:55+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002046s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=1 )  [ RunTime:0.0004s ]
+
+[ 2018-11-11T08:21:58+08:00 ] ::1 /secondhand/Admin/Goods/goodsadd?_=1541895717345
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0819s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.160148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001615s ]
+
+[ 2018-11-11T08:21:59+08:00 ] ::1 /SecondHand/Admin/Goods/getCatid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0154s ]
+SQL: SHOW COLUMNS FROM `goods_cat` [ RunTime:0.0328s ]
+SQL: SELECT * FROM `goods_cat`  [ RunTime:0.0183s ]
+
+[ 2018-11-11T08:22:09+08:00 ] ::1 /SecondHand/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2018-11-11T08:22:11+08:00 ] ::1 /SecondHand/Admin/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002183s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000616s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2018-11-11T08:22:15+08:00 ] ::1 /SecondHand/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003832s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001766s ]
+
+[ 2018-11-11T08:22:17+08:00 ] ::1 /SecondHand/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002183s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001428s ]
+
+[ 2018-11-11T08:22:19+08:00 ] ::1 /SecondHand/Admin/Index/info.html?_=1541895738583
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [2] Use of undefined constant MYSQL_VERSION - assumed 'MYSQL_VERSION' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 45 行.
+NOTIC: [2] Use of undefined constant WWWROOT - assumed 'WWWROOT' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2018-11-11T08:22:19+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=0 )  [ RunTime:0.0004s ]
+
+[ 2018-11-11T08:22:23+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.1032s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=1 )  [ RunTime:0.0006s ]
+
+[ 2018-11-11T08:22:27+08:00 ] ::1 /secondhand/Admin/Goods/goodsadd?_=1541895746609
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002120s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0166s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001415s ]
+
+[ 2018-11-11T08:22:28+08:00 ] ::1 /SecondHand/Admin/Goods/getCatid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000680s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `goods_cat` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `goods_cat`  [ RunTime:0.0004s ]
+
+[ 2018-11-11T08:22:39+08:00 ] ::1 /SecondHand/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001568s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2018-11-11T08:22:40+08:00 ] ::1 /SecondHand/Admin/Index/info.html?_=1541895759793
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [2] Use of undefined constant MYSQL_VERSION - assumed 'MYSQL_VERSION' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 45 行.
+NOTIC: [2] Use of undefined constant WWWROOT - assumed 'WWWROOT' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2018-11-11T08:22:40+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001719s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=0 )  [ RunTime:0.0004s ]
+
+[ 2018-11-11T08:22:43+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=1 )  [ RunTime:0.0005s ]
+
+[ 2018-11-11T08:22:45+08:00 ] ::1 /secondhand/Admin/Goods/goodsadd?_=1541895764680
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002138s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0206s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002245s ]
+
+[ 2018-11-11T08:22:46+08:00 ] ::1 /SecondHand/Admin/Goods/getCatid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0217s ]
+SQL: SHOW COLUMNS FROM `goods_cat` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `goods_cat`  [ RunTime:0.0003s ]
+
+[ 2018-11-11T08:22:53+08:00 ] ::1 /SecondHand/Admin/Goods/fileUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0140s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\www_php\SecondHand\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-11-11T08:23:06+08:00 ] ::1 /SecondHand/Admin/Goods/getbrand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001741s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0666s ]
+SQL: SHOW COLUMNS FROM `goods_brand` [ RunTime:0.0635s ]
+SQL: SELECT * FROM `goods_brand` WHERE `cat_id` = 1  [ RunTime:0.0009s ]
+
+[ 2018-11-11T08:23:10+08:00 ] ::1 /SecondHand/Admin/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002077s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0168s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+SQL: INSERT INTO `goods` (`cat_id`,`cat_name`,`brand_id`,`brand_name`,`goods_sn`,`thumb_img`,`goods_img`,`goods_desc`,`goods_name`,`goods_number`,`goods_weight`,`market_price`,`shop_price`,`good_state`,`good_statename`,`add_time`,`is_best`) VALUES ('1','手机配件','1','手机壳','44aa0590-3bac-d37a-31f6-32b7755e1748','/SecondHand/Uploads/face/120181111082252_870.jpg','/SecondHand/Uploads/img/120181111082252_870.jpg','312312','12312','12312','12312.0','12312.00','123123.00','1','通过发布','2018-11-11 08:23:10','1') [ RunTime:0.0837s ]
+
+[ 2018-11-11T08:23:13+08:00 ] ::1 /secondhand/Admin/Index/liebiao?_=1541895792753
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.168483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.168668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004866s ]
+
+[ 2018-11-11T08:23:14+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0149s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0245s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2018-11-11T08:23:14+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0082s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2018-11-11T08:26:50+08:00 ] ::1 /SecondHand/Admin/Index/sp_chanchu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0669s ]
+SQL: DELETE FROM `goods` WHERE `goods_sn` = '' [ RunTime:0.0778s ]
+
+[ 2018-11-11T08:26:50+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0257s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0007s ]
+
+[ 2018-11-11T08:27:18+08:00 ] ::1 /SecondHand/Admin/Goods/fileUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0140s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\www_php\SecondHand\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-11-11T08:27:25+08:00 ] ::1 /SecondHand/Admin/Goods/getbrand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `goods_brand` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `goods_brand` WHERE `cat_id` = 3  [ RunTime:0.0004s ]
+
+[ 2018-11-11T08:27:28+08:00 ] ::1 /SecondHand/Admin/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003726s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0206s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0099s ]
+SQL: INSERT INTO `goods` (`cat_id`,`cat_name`,`brand_id`,`brand_name`,`goods_sn`,`thumb_img`,`goods_img`,`goods_desc`,`goods_name`,`goods_number`,`goods_weight`,`market_price`,`shop_price`,`good_state`,`good_statename`,`add_time`,`is_new`) VALUES ('3','相机/摄像机','15','相机','eab5c873-4cf7-e088-a26f-79dd9afc303b','/SecondHand/Uploads/face/120181111082717_484.jpg','/SecondHand/Uploads/img/120181111082717_484.jpg','2312','3123','32131','232.0','2412421.00','412412.00','1','通过发布','2018-11-11 08:27:28','2') [ RunTime:0.1073s ]
+
+[ 2018-11-11T08:33:38+08:00 ] ::1 /SecondHand/Admin/Goods/fileUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0289s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\www_php\SecondHand\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-11-11T08:34:05+08:00 ] ::1 /SecondHand/Admin/Goods/getbrand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002684s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `goods_brand` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `goods_brand` WHERE `cat_id` = 5  [ RunTime:0.0004s ]
+
+[ 2018-11-11T08:34:25+08:00 ] ::1 /SecondHand/Admin/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0174s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0115s ]
+SQL: INSERT INTO `goods` (`cat_id`,`cat_name`,`brand_id`,`brand_name`,`goods_sn`,`thumb_img`,`goods_img`,`goods_desc`,`goods_name`,`goods_number`,`goods_weight`,`market_price`,`shop_price`,`good_state`,`good_statename`,`add_time`,`is_best`) VALUES ('5','手机品牌','31','一加','edf886b5-b13b-1888-adab-dff5ab795519','/SecondHand/Uploads/face/120181111083338_752.jpg','/SecondHand/Uploads/img/120181111083338_752.jpg','不错，很好。','一加6','2','0.1','3499.00','3499.00','1','通过发布','2018-11-11 08:34:25','1') [ RunTime:0.0531s ]
+
+[ 2018-11-11T08:47:52+08:00 ] ::1 /SecondHand/Admin/Goods/fileUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0717s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\www_php\SecondHand\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-11-11T08:48:04+08:00 ] ::1 /SecondHand/Admin/Goods/getbrand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0199s ]
+SQL: SHOW COLUMNS FROM `goods_brand` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `goods_brand` WHERE `cat_id` = 5  [ RunTime:0.0004s ]
+
+[ 2018-11-11T08:48:14+08:00 ] ::1 /SecondHand/Admin/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0214s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0128s ]
+SQL: INSERT INTO `goods` (`cat_id`,`cat_name`,`brand_id`,`brand_name`,`goods_sn`,`thumb_img`,`goods_img`,`goods_desc`,`goods_name`,`goods_number`,`goods_weight`,`market_price`,`shop_price`,`good_state`,`good_statename`,`add_time`,`in_on_sale`) VALUES ('5','手机品牌','28','三星','fa4221a9-d630-b722-074b-9baff0342ab9','/SecondHand/Uploads/face/120181111084752_270.jpg','/SecondHand/Uploads/img/120181111084752_270.jpg','三星七','三星7','33','1.0','5999.00','5999.00','1','通过发布','2018-11-11 08:48:14','4') [ RunTime:0.0837s ]
+
+[ 2018-11-11T08:52:38+08:00 ] ::1 /SecondHand/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2018-11-11T08:52:39+08:00 ] ::1 /SecondHand/Admin/Index/info.html?_=1541897558819
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [2] Use of undefined constant MYSQL_VERSION - assumed 'MYSQL_VERSION' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 45 行.
+NOTIC: [2] Use of undefined constant WWWROOT - assumed 'WWWROOT' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2018-11-11T08:52:39+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0386s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=0 )  [ RunTime:0.0006s ]
+
+[ 2018-11-11T08:52:44+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0449s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=1 )  [ RunTime:0.0004s ]
+
+[ 2018-11-11T08:52:46+08:00 ] ::1 /secondhand/Admin/Goods/goodsadd?_=1541897565078
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0680s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001589s ]
+
+[ 2018-11-11T08:52:46+08:00 ] ::1 /SecondHand/Admin/Goods/getCatid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0181s ]
+SQL: SHOW COLUMNS FROM `goods_cat` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `goods_cat`  [ RunTime:0.0003s ]
+
+[ 2018-11-11T08:53:13+08:00 ] ::1 /SecondHand/Admin/Goods/fileUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0200s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\www_php\SecondHand\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-11-11T08:53:21+08:00 ] ::1 /SecondHand/Admin/Goods/getbrand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0252s ]
+SQL: SHOW COLUMNS FROM `goods_brand` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `goods_brand` WHERE `cat_id` = 1  [ RunTime:0.0004s ]
+
+[ 2018-11-11T08:53:23+08:00 ] ::1 /SecondHand/Admin/Goods/getbrand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002009s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0243s ]
+SQL: SHOW COLUMNS FROM `goods_brand` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `goods_brand` WHERE `cat_id` = 5  [ RunTime:0.0005s ]
+
+[ 2018-11-11T08:53:36+08:00 ] ::1 /SecondHand/Admin/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001879s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0212s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0124s ]
+SQL: INSERT INTO `goods` (`cat_id`,`cat_name`,`brand_id`,`brand_name`,`goods_sn`,`thumb_img`,`goods_img`,`goods_desc`,`goods_name`,`goods_number`,`goods_weight`,`market_price`,`shop_price`,`good_state`,`good_statename`,`add_time`,`is_best`) VALUES ('5','手机品牌','31','一加','102a548b-b0ee-62a0-9e44-8786335887e3','/SecondHand/Uploads/face/120181111085313_820.jpg','/SecondHand/Uploads/img/120181111085313_820.jpg','最好的手机','一加','22','1.0','3999.00','3999.00','1','通过发布','2018-11-11 08:53:35','1') [ RunTime:0.0822s ]
+
+[ 2018-11-11T08:54:21+08:00 ] ::1 /SecondHand/Admin/Goods/fileUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001903s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0223s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\www_php\SecondHand\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-11-11T08:54:32+08:00 ] ::1 /SecondHand/Admin/Goods/getbrand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0185s ]
+SQL: SHOW COLUMNS FROM `goods_brand` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `goods_brand` WHERE `cat_id` = 1  [ RunTime:0.0004s ]
+
+[ 2018-11-11T08:54:33+08:00 ] ::1 /SecondHand/Admin/Goods/getbrand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0198s ]
+SQL: SHOW COLUMNS FROM `goods_brand` [ RunTime:0.0843s ]
+SQL: SELECT * FROM `goods_brand` WHERE `cat_id` = 5  [ RunTime:0.0007s ]
+
+[ 2018-11-11T08:54:38+08:00 ] ::1 /SecondHand/Admin/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0181s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0111s ]
+SQL: INSERT INTO `goods` (`cat_id`,`cat_name`,`brand_id`,`brand_name`,`goods_sn`,`thumb_img`,`goods_img`,`goods_desc`,`goods_name`,`goods_number`,`goods_weight`,`market_price`,`shop_price`,`good_state`,`good_statename`,`add_time`,`is_best`) VALUES ('5','手机品牌','31','一加','d6326b35-8608-e6bd-20ac-05487acd5fd8','/SecondHand/Uploads/face/120181111085421_130.gif','/SecondHand/Uploads/img/120181111085421_130.gif','111','哦哦哦','11','1.0','1.00','1.00','1','通过发布','2018-11-11 08:54:38','1') [ RunTime:0.0700s ]
+
+[ 2018-11-11T08:55:03+08:00 ] ::1 /SecondHand/Admin/Goods/fileUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0179s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\www_php\SecondHand\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-11-11T08:55:08+08:00 ] ::1 /SecondHand/Admin/Goods/getbrand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0296s ]
+SQL: SHOW COLUMNS FROM `goods_brand` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `goods_brand` WHERE `cat_id` = 4  [ RunTime:0.0005s ]
+
+[ 2018-11-11T08:55:16+08:00 ] ::1 /SecondHand/Admin/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0199s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0108s ]
+SQL: INSERT INTO `goods` (`cat_id`,`cat_name`,`brand_id`,`brand_name`,`goods_sn`,`thumb_img`,`goods_img`,`goods_desc`,`goods_name`,`goods_number`,`goods_weight`,`market_price`,`shop_price`,`good_state`,`good_statename`,`add_time`,`is_hot`) VALUES ('4','电脑/电脑周边','18','笔记本','c9ee52ba-d621-e8fb-73f5-81f1290e1fd3','/SecondHand/Uploads/face/120181111085503_847.jpg','/SecondHand/Uploads/img/120181111085503_847.jpg','3','人','1','1.0','1.00','1.00','1','通过发布','2018-11-11 08:55:15','3') [ RunTime:0.0742s ]
+
+[ 2018-11-11T11:37:21+08:00 ] 127.0.0.1 /SecondHand/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002368s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2018-11-11T11:37:23+08:00 ] 127.0.0.1 /SecondHand/Admin/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2018-11-11T11:37:31+08:00 ] 127.0.0.1 /SecondHand/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002546s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0560s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001947s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006317s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001325s ]
+
+[ 2018-11-11T11:37:32+08:00 ] 127.0.0.1 /SecondHand/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000206s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003960s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001552s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2018-11-11T11:37:34+08:00 ] 127.0.0.1 /SecondHand/Admin/Index/info.html?_=1541907453258
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [2] Use of undefined constant MYSQL_VERSION - assumed 'MYSQL_VERSION' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 45 行.
+NOTIC: [2] Use of undefined constant WWWROOT - assumed 'WWWROOT' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2018-11-11T11:37:34+08:00 ] 127.0.0.1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=0 )  [ RunTime:0.0005s ]
+
+[ 2018-11-11T11:37:36+08:00 ] 127.0.0.1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002683s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=1 )  [ RunTime:0.0004s ]
+
+[ 2018-11-11T11:37:38+08:00 ] 127.0.0.1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=9 )  [ RunTime:0.0004s ]
+
+[ 2018-11-11T11:37:40+08:00 ] 127.0.0.1 /secondhand/Admin/Index/order?_=1541907459526
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2018-11-11T11:37:40+08:00 ] 127.0.0.1 /SecondHand/Admin/Index/getOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `pay` [ RunTime:0.0177s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 134 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pay` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 139 行.
+SQL: SELECT * FROM `pay` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2018-11-11T11:37:41+08:00 ] 127.0.0.1 /SecondHand/Admin/Index/getOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `pay` [ RunTime:0.0211s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 134 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pay` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 139 行.
+SQL: SELECT * FROM `pay` LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2018-11-11T11:37:50+08:00 ] 127.0.0.1 /SecondHand/Admin/Index/orderxiugai_formSubmit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `pay` [ RunTime:0.0221s ]
+SQL: UPDATE `pay` SET `user_address_name`='杨海峰',`good_stateid`='1',`user_address`='重庆市南川市水江镇',`user_name`='yhf',`user_phone`='17764809513',`user_total`='3999',`good_statename`='已发货' WHERE `user_order` = '20181111101839_37' [ RunTime:0.0541s ]
+
+[ 2018-11-11T11:37:50+08:00 ] 127.0.0.1 /SecondHand/Admin/Index/getOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `pay` [ RunTime:0.0151s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 134 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pay` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 139 行.
+SQL: SELECT * FROM `pay` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2018-11-11T11:37:56+08:00 ] 127.0.0.1 /SecondHand/Admin/Index/orderxiugai_formSubmit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: SHOW COLUMNS FROM `pay` [ RunTime:0.0227s ]
+SQL: UPDATE `pay` SET `user_address_name`='1234',`good_stateid`='1',`user_address`='1',`user_name`='yhf',`user_phone`='1231',`user_total`='3999',`good_statename`='已发货' WHERE `user_order` = '2018111111333437' [ RunTime:0.0711s ]
+
+[ 2018-11-11T11:37:56+08:00 ] 127.0.0.1 /SecondHand/Admin/Index/getOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `pay` [ RunTime:0.0159s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 134 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pay` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 139 行.
+SQL: SELECT * FROM `pay` LIMIT 0,10   [ RunTime:0.0007s ]
+
+[ 2018-11-11T11:47:32+08:00 ] ::1 /SecondHand/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2018-11-11T11:47:34+08:00 ] ::1 /SecondHand/Admin/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2018-11-11T13:11:12+08:00 ] ::1 /SecondHand/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001194s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010492s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005760s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001567s ]
+
+[ 2018-11-11T13:11:13+08:00 ] ::1 /SecondHand/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003739s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001782s ]
+
+[ 2018-11-11T13:11:15+08:00 ] ::1 /SecondHand/Admin/Index/info.html?_=1541913074332
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+NOTIC: [2] Use of undefined constant MYSQL_VERSION - assumed 'MYSQL_VERSION' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 45 行.
+NOTIC: [2] Use of undefined constant WWWROOT - assumed 'WWWROOT' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2018-11-11T13:11:15+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0483s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=0 )  [ RunTime:0.0009s ]
+
+[ 2018-11-11T13:11:17+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0335s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=1 )  [ RunTime:0.0004s ]
+
+[ 2018-11-11T13:11:18+08:00 ] ::1 /secondhand/Admin/Index/liebiao?_=1541913077858
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001404s ]
+
+[ 2018-11-11T13:11:19+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0208s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2018-11-11T13:11:19+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2018-11-11T13:11:24+08:00 ] ::1 /secondhand/Admin/Goods/goodsadd?_=1541913083332
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0195s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2018-11-11T13:11:25+08:00 ] ::1 /SecondHand/Admin/Goods/getCatid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0324s ]
+SQL: SHOW COLUMNS FROM `goods_cat` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `goods_cat`  [ RunTime:0.0004s ]
+
+[ 2018-11-11T13:12:06+08:00 ] ::1 /SecondHand/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2018-11-11T13:12:07+08:00 ] ::1 /SecondHand/Admin/Index/info.html?_=1541913126490
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+NOTIC: [2] Use of undefined constant MYSQL_VERSION - assumed 'MYSQL_VERSION' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 45 行.
+NOTIC: [2] Use of undefined constant WWWROOT - assumed 'WWWROOT' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2018-11-11T13:12:07+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0929s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=0 )  [ RunTime:0.0009s ]
+
+[ 2018-11-11T13:12:11+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0359s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=1 )  [ RunTime:0.0004s ]
+
+[ 2018-11-11T13:12:15+08:00 ] ::1 /secondhand/Admin/Index/liebiao?_=1541913134778
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002733s ]
+
+[ 2018-11-11T13:12:16+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0324s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2018-11-11T13:12:16+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0147s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2018-11-11T13:12:19+08:00 ] ::1 /secondhand/Admin/Goods/goodsadd?_=1541913138259
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0738s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001317s ]
+
+[ 2018-11-11T13:12:20+08:00 ] ::1 /SecondHand/Admin/Goods/getCatid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0184s ]
+SQL: SHOW COLUMNS FROM `goods_cat` [ RunTime:0.0695s ]
+SQL: SELECT * FROM `goods_cat`  [ RunTime:0.0008s ]
+
+[ 2018-11-11T13:12:48+08:00 ] ::1 /SecondHand/Admin/Goods/fileUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0272s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\www_php\SecondHand\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-11-11T13:12:56+08:00 ] ::1 /SecondHand/Admin/Goods/getbrand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002049s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0237s ]
+SQL: SHOW COLUMNS FROM `goods_brand` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `goods_brand` WHERE `cat_id` = 1  [ RunTime:0.0004s ]
+
+[ 2018-11-11T13:13:03+08:00 ] ::1 /SecondHand/Admin/Goods/getbrand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0191s ]
+SQL: SHOW COLUMNS FROM `goods_brand` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `goods_brand` WHERE `cat_id` = 5  [ RunTime:0.0004s ]
+
+[ 2018-11-11T13:13:33+08:00 ] ::1 /SecondHand/Admin/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0223s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0118s ]
+SQL: INSERT INTO `goods` (`cat_id`,`cat_name`,`brand_id`,`brand_name`,`goods_sn`,`thumb_img`,`goods_img`,`goods_desc`,`goods_name`,`goods_number`,`goods_weight`,`market_price`,`shop_price`,`good_state`,`good_statename`,`add_time`,`is_best`) VALUES ('5','手机品牌','30','小米','71591f85-2ddd-b719-0f17-471b90f4f0e6','/SecondHand/Uploads/face/120181111131248_858.jpg','/SecondHand/Uploads/img/120181111131248_858.jpg','还是阔以，呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵','小米2s','20','1.0','55.00','50.00','1','通过发布','2018-11-11 13:13:33','1') [ RunTime:0.0624s ]
+
+[ 2018-11-11T13:13:38+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0245s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0007s ]
+
+[ 2018-11-11T13:15:26+08:00 ] ::1 /SecondHand/Admin/Index/sp_chanchu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002172s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0354s ]
+SQL: DELETE FROM `goods` WHERE `goods_sn` = '102a548b-b0ee-6' [ RunTime:0.0707s ]
+
+[ 2018-11-11T13:15:26+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0202s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0011s ]
+
+[ 2018-11-11T13:17:04+08:00 ] ::1 /SecondHand/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2018-11-11T13:17:05+08:00 ] ::1 /SecondHand/Admin/Index/info.html?_=1541913424529
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [2] Use of undefined constant MYSQL_VERSION - assumed 'MYSQL_VERSION' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 45 行.
+NOTIC: [2] Use of undefined constant WWWROOT - assumed 'WWWROOT' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2018-11-11T13:17:05+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001824s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=0 )  [ RunTime:0.0004s ]
+
+[ 2018-11-11T13:17:08+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0318s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=1 )  [ RunTime:0.0005s ]
+
+[ 2018-11-11T13:17:10+08:00 ] ::1 /secondhand/Admin/Index/liebiao?_=1541913429442
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001596s ]
+
+[ 2018-11-11T13:17:10+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001812s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0181s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2018-11-11T13:17:11+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0177s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2018-11-11T13:17:23+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0268s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2018-11-11T13:17:30+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1000s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0008s ]
+
+[ 2018-11-11T13:17:30+08:00 ] ::1 /SecondHand/Admin/Index/xiugai_formSubmit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0127s ]
+SQL: UPDATE `goods` SET `goods_name`='小米3S',`goods_sn`='',`goods_number`='0',`shop_price`='50.00',`good_state`='1',`last_update`='2018',`good_statename`='通过发布' WHERE `goods_sn` = '' [ RunTime:0.1539s ]
+
+[ 2018-11-11T13:17:39+08:00 ] ::1 /SecondHand/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2018-11-11T13:17:40+08:00 ] ::1 /SecondHand/Admin/Index/info.html?_=1541913460088
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+NOTIC: [2] Use of undefined constant MYSQL_VERSION - assumed 'MYSQL_VERSION' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 45 行.
+NOTIC: [2] Use of undefined constant WWWROOT - assumed 'WWWROOT' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2018-11-11T13:17:40+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=0 )  [ RunTime:0.0006s ]
+
+[ 2018-11-11T13:17:43+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002082s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0339s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=1 )  [ RunTime:0.0004s ]
+
+[ 2018-11-11T13:17:45+08:00 ] ::1 /secondhand/Admin/Index/liebiao?_=1541913465074
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2018-11-11T13:17:46+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0199s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2018-11-11T13:17:46+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0113s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2018-11-11T13:20:25+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0241s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0009s ]
+
+[ 2018-11-11T13:20:29+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0199s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2018-11-11T13:20:30+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0225s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2018-11-11T13:20:35+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0184s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 10,10   [ RunTime:0.0004s ]
+
+[ 2018-11-11T13:20:39+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0194s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2018-11-11T13:20:40+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0212s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 10,10   [ RunTime:0.0005s ]
+
+[ 2018-11-11T13:20:42+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0332s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2018-11-11T13:20:45+08:00 ] ::1 /SecondHand/Admin/Index/sp_chanchu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0203s ]
+SQL: DELETE FROM `goods` WHERE `goods_sn` = '' [ RunTime:0.0496s ]
+
+[ 2018-11-11T13:20:45+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0293s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2018-11-11T13:20:51+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002058s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0329s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2018-11-11T13:20:54+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002134s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0188s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2018-11-11T13:20:55+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0211s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2018-11-11T13:22:54+08:00 ] ::1 /SecondHand/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2018-11-11T13:22:56+08:00 ] ::1 /SecondHand/Admin/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2018-11-11T13:43:09+08:00 ] ::1 /SecondHand/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004234s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0302s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001142s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010396s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007200s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002454s ]
+
+[ 2018-11-11T13:43:10+08:00 ] ::1 /SecondHand/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004047s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000509s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003051s ]
+
+[ 2018-11-11T13:43:12+08:00 ] ::1 /SecondHand/Admin/Index/info.html?_=1541914991602
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001845s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [2] Use of undefined constant MYSQL_VERSION - assumed 'MYSQL_VERSION' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 45 行.
+NOTIC: [2] Use of undefined constant WWWROOT - assumed 'WWWROOT' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2018-11-11T13:43:12+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001842s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0382s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=0 )  [ RunTime:0.0008s ]
+
+[ 2018-11-11T13:43:14+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=1 )  [ RunTime:0.0007s ]
+
+[ 2018-11-11T13:43:18+08:00 ] ::1 /secondhand/Admin/Index/liebiao?_=1541914997371
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001684s ]
+
+[ 2018-11-11T13:43:18+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0184s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2018-11-11T13:43:19+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0201s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0011s ]
+
+[ 2018-11-11T13:43:26+08:00 ] ::1 /secondhand/Admin/Goods/goodsadd?_=1541915005579
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002159s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002072s ]
+
+[ 2018-11-11T13:43:27+08:00 ] ::1 /SecondHand/Admin/Goods/getCatid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0347s ]
+SQL: SHOW COLUMNS FROM `goods_cat` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `goods_cat`  [ RunTime:0.0006s ]
+
+[ 2018-11-11T13:43:39+08:00 ] ::1 /SecondHand/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000752s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003227s ]
+
+[ 2018-11-11T13:43:41+08:00 ] ::1 /SecondHand/Admin/Index/info.html?_=1541915020208
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [2] Use of undefined constant MYSQL_VERSION - assumed 'MYSQL_VERSION' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 45 行.
+NOTIC: [2] Use of undefined constant WWWROOT - assumed 'WWWROOT' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2018-11-11T13:43:41+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=0 )  [ RunTime:0.0005s ]
+
+[ 2018-11-11T13:43:43+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=1 )  [ RunTime:0.0004s ]
+
+[ 2018-11-11T13:43:45+08:00 ] ::1 /secondhand/Admin/Goods/goodsadd?_=1541915024489
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002331s ]
+
+[ 2018-11-11T13:43:46+08:00 ] ::1 /SecondHand/Admin/Goods/getCatid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001742s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0334s ]
+SQL: SHOW COLUMNS FROM `goods_cat` [ RunTime:0.0248s ]
+SQL: SELECT * FROM `goods_cat`  [ RunTime:0.0006s ]
+
+[ 2018-11-11T13:44:11+08:00 ] ::1 /SecondHand/Admin/Goods/fileUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002281s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0487s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\www_php\SecondHand\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-11-11T13:44:16+08:00 ] ::1 /SecondHand/Admin/Goods/getbrand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0302s ]
+SQL: SHOW COLUMNS FROM `goods_brand` [ RunTime:0.0287s ]
+SQL: SELECT * FROM `goods_brand` WHERE `cat_id` = 5  [ RunTime:0.0007s ]
+
+[ 2018-11-11T13:44:36+08:00 ] ::1 /SecondHand/Admin/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0294s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0172s ]
+SQL: INSERT INTO `goods` (`cat_id`,`cat_name`,`brand_id`,`brand_name`,`goods_sn`,`thumb_img`,`goods_img`,`goods_desc`,`goods_name`,`goods_number`,`goods_weight`,`market_price`,`shop_price`,`good_state`,`good_statename`,`add_time`,`is_best`) VALUES ('5','手机品牌','30','小米','37de93ea-fbd4-f145-f4d8-0a74c439258d','/SecondHand/Uploads/face/120181111134410_938.jpg','/SecondHand/Uploads/img/120181111134410_938.jpg','哈哈哈哈哈哈哈哈哈哈哈哈哈','小米4S','1','1.0','60.00','50.00','1','通过发布','2018-11-11 13:44:36','1') [ RunTime:0.0569s ]
+
+[ 2018-11-11T13:44:39+08:00 ] ::1 /secondhand/Admin/Index/liebiao?_=1541915078693
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002510s ]
+
+[ 2018-11-11T13:44:40+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002516s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0253s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0008s ]
+
+[ 2018-11-11T13:44:40+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003598s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0199s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2018-11-11T13:44:42+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002084s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0581s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0018s ]
+
+[ 2018-11-11T13:48:33+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003318s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0614s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0012s ]
+
+[ 2018-11-11T13:48:38+08:00 ] ::1 /SecondHand/Admin/Index/xiugai_formSubmit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001346s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0229s ]
+SQL: UPDATE `goods` SET `goods_name`='小米5S',`goods_sn`='d4e699d4-dc99-e',`goods_number`='0',`shop_price`='60.00',`good_state`='1',`last_update`='2018',`good_statename`='通过发布' WHERE `goods_sn` = 'd4e699d4-dc99-e' [ RunTime:0.0588s ]
+
+[ 2018-11-11T13:48:38+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0346s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0011s ]
+
+[ 2018-11-11T13:56:41+08:00 ] ::1 /SecondHand/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2018-11-11T13:56:43+08:00 ] ::1 /SecondHand/Admin/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2018-11-11T13:56:48+08:00 ] ::1 /SecondHand/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002243s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006847s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005490s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002161s ]
+
+[ 2018-11-11T13:56:49+08:00 ] ::1 /SecondHand/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005126s ]
+
+[ 2018-11-11T13:56:51+08:00 ] ::1 /SecondHand/Admin/Index/info.html?_=1541915810256
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [2] Use of undefined constant MYSQL_VERSION - assumed 'MYSQL_VERSION' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 45 行.
+NOTIC: [2] Use of undefined constant WWWROOT - assumed 'WWWROOT' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2018-11-11T13:56:51+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=0 )  [ RunTime:0.0007s ]
+
+[ 2018-11-11T13:56:53+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=1 )  [ RunTime:0.0004s ]
+
+[ 2018-11-11T13:57:01+08:00 ] ::1 /secondhand/Admin/Goods/goodsadd?_=1541915820895
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001514s ]
+
+[ 2018-11-11T13:57:02+08:00 ] ::1 /SecondHand/Admin/Goods/getCatid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0217s ]
+SQL: SHOW COLUMNS FROM `goods_cat` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `goods_cat`  [ RunTime:0.0003s ]
+
+[ 2018-11-11T13:57:25+08:00 ] ::1 /secondhand/Admin/Index/liebiao?_=1541915844273
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001194s ]
+
+[ 2018-11-11T13:57:25+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003165s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0370s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0009s ]
+
+[ 2018-11-11T13:57:26+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0970s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0261s ]
+
+[ 2018-11-11T14:00:44+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0333s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2018-11-11T14:00:47+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001851s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0452s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 10,10   [ RunTime:0.0005s ]
+
+[ 2018-11-11T14:00:51+08:00 ] ::1 /SecondHand/Admin/Index/xiugai_formSubmit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0215s ]
+SQL: UPDATE `goods` SET `goods_name`='iphone 11',`goods_sn`='fcdf07b5-9884-e',`goods_number`='0',`shop_price`='9000.00',`good_state`='1',`last_update`='2018',`good_statename`='通过发布' WHERE `goods_sn` = 'fcdf07b5-9884-e' [ RunTime:0.0696s ]
+
+[ 2018-11-11T14:00:51+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002121s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0147s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 10,10   [ RunTime:0.0009s ]
+
+[ 2018-11-11T14:03:08+08:00 ] ::1 /SecondHand/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2018-11-11T14:03:09+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=0 )  [ RunTime:0.0004s ]
+
+[ 2018-11-11T14:03:10+08:00 ] ::1 /SecondHand/Admin/Index/info.html?_=1541916189221
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [2] Use of undefined constant MYSQL_VERSION - assumed 'MYSQL_VERSION' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 45 行.
+NOTIC: [2] Use of undefined constant WWWROOT - assumed 'WWWROOT' (this will throw an Error in a future version of PHP) F:\www_php\SecondHand\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002844s ]
+
+[ 2018-11-11T14:03:12+08:00 ] ::1 /SecondHand/Admin/Index/getTree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( pid=1 )  [ RunTime:0.0004s ]
+
+[ 2018-11-11T14:03:14+08:00 ] ::1 /secondhand/Admin/Index/liebiao?_=1541916193748
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001335s ]
+
+[ 2018-11-11T14:03:15+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002181s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0239s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2018-11-11T14:03:15+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0211s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0007s ]
+
+[ 2018-11-11T14:03:17+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002109s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0233s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 10,10   [ RunTime:0.0005s ]
+
+[ 2018-11-11T14:03:23+08:00 ] ::1 /SecondHand/Admin/Index/sp_chanchu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0310s ]
+SQL: DELETE FROM `goods` WHERE `goods_sn` = 'fcdf07b5-9884-e' [ RunTime:0.0531s ]
+
+[ 2018-11-11T14:03:23+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0252s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 10,10   [ RunTime:0.0005s ]
+
+[ 2018-11-11T14:03:23+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0138s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,10   [ RunTime:0.0007s ]
+
+[ 2018-11-11T14:03:26+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001582s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1382s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,50   [ RunTime:0.0010s ]
+
+[ 2018-11-11T14:04:17+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0252s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,50   [ RunTime:0.0006s ]
+
+[ 2018-11-11T14:04:24+08:00 ] ::1 /SecondHand/Admin/Index/xiugai_formSubmit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0338s ]
+SQL: UPDATE `goods` SET `goods_name`='雷神',`goods_sn`='1d2002e0-d8cc-e',`goods_number`='1',`shop_price`='6000.00',`good_state`='1',`last_update`='2018',`good_statename`='通过发布' WHERE `goods_sn` = '1d2002e0-d8cc-e' [ RunTime:0.0386s ]
+
+[ 2018-11-11T14:04:24+08:00 ] ::1 /SecondHand/Admin/Index/getLiebiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0328s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 167 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where F:\www_php\SecondHand\Application\Admin\Controller\IndexController.class.php 第 172 行.
+SQL: SELECT * FROM `goods` LIMIT 0,50   [ RunTime:0.0006s ]
+

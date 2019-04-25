@@ -1,0 +1,39 @@
+<?php
+
+namespace Home\Controller;
+
+use Think\Controller;
+
+class ReleaseController extends Controller
+{
+    function release()
+    {
+        $this->display();
+    }
+
+    //图片上传
+    function upload()
+    {
+        $upload = new \Think\Upload();
+        $upload->rootPath = 'uploads';//根路径
+        $upload->savePath = data('Y') . '/' . data('m') . '/' . data('d') . '/';//子路径
+        $upload->exts = array('jgp', 'gif', 'png');//上传文件类型
+        $upload->autoSub = false;
+        $upload->saveRule = uniqid;
+        $upload->thumbRemoveOrigin = false;
+        $info = $upload->upload();
+        if (!$info) {
+            echo $this->error($upload->getError());//获取失败信息
+        } else {
+            $fileArray = '';
+            foreach ($info as $file) {
+                $fileArray = '/' . $upload->rootPath . $file['savepath'] . $file['savename'];
+            }
+            echo trim($fileArray);
+        }
+
+    }
+
+}
+
+?>

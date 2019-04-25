@@ -1,0 +1,581 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="order by dede58.com"/>
+    <title><?php echo ($goodsinfo['goods_name']); ?>立即购买</title>
+    <link rel="stylesheet" type="text/css" href="/secondhand/Public/Q-css/style.css">
+    <link rel="stylesheet" type="text/css" href="/secondhand/Public/Q-css/style11.css">
+    <link rel="stylesheet" type="text/css" href="/secondhand/Public/xiangqing/css/public.css">
+    <link rel="stylesheet" type="text/css" href="/secondhand/Public/xiangqing/css/base.css">
+    <link rel="stylesheet" type="text/css" href="/secondhand/Public/xiangqing/css/checkOut.css">
+    <link rel="stylesheet" type="text/css" href="/secondhand/Public/naranja/naranja.min.css">
+    <script type="text/javascript" src="/secondhand/Public/naranja/naranja.js"></script>
+    <script type="text/javascript" src="/secondhand/Public/jquery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="/secondhand/Public/address/city-picker.data.js"></script>
+    <script type="text/javascript" src="/secondhand/Public/address/city-picker.js"></script>
+    <style type="text/css" src="/secondhand/Public/xiangqing/js/jquery_cart.js"></style>
+
+    <Link rel="stylesheet" type="text/css" href="/secondhand/Public/address/css/city-picker.css">
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#city-picker1").citypicker();
+            // 获取按钮框，并绑定点击事件，点击时触发
+            $("#reset").click(function () {
+                // 获取输入框，并在点击按钮后清空输入框中内容
+                $("#city-picker1").citypicker("reset");
+            })
+        });
+
+    </script>
+
+</head>
+<style>
+    #aa {
+        position: relative;
+        display: inline-block;
+    }
+
+    #bb {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 200px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+    }
+
+    #aa:hover #bb {
+        display: block;
+    }
+</style>
+
+<body>
+<!-- start header -->
+<header>
+    <div class="top center">
+        <div class="left fl">
+            <ul>
+                <!--<li><a href="http://www.mi.com/" target="_blank">小米商城</a></li>-->
+                <!--<li>|</li>-->
+                <!--<li><a href="">MIUI</a></li>-->
+                <!--<li>|</li>-->
+                <!--<li><a href="">米聊</a></li>-->
+                <!--<li>|</li>-->
+                <!--<li><a href="">游戏</a></li>-->
+                <!--<li>|</li>-->
+                <!--<li><a href="">多看阅读</a></li>-->
+                <!--<li>|</li>-->
+                <!--<li><a href="">云服务</a></li>-->
+                <!--<li>|</li>-->
+                <!--<li><a href="">金融</a></li>-->
+                <!--<li>|</li>-->
+                <!--<li><a href="">小米商城移动版</a></li>-->
+                <!--<li>|</li>-->
+                <!--<li><a href="">问题反馈</a></li>-->
+                <!--<li>|</li>-->
+                <!--<li><a href="">Select Region</a></li>-->
+                <div class="clear"></div>
+            </ul>
+        </div>
+        <div class="right fr" onclick="checkLogin()">
+            <div class="gouwuche fr"><a id="car_shuliang">购物车</a></div>
+            <div class="fr">
+                <ul id="userInfo">
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</header>
+<div class="banner_x center">
+    <a href="<?php echo U('Home/Main/main');?>">
+        <div class="logo fl"></div>
+    </a>
+    <div style="margin-left: 25px" class="nav fl">
+        <ul>
+            <li><a href="">手机配件</a></li>
+            <li><a href="">电玩随身听</a></li>
+            <li><a href="">相机/摄像机</a></li>
+            <li><a href="">电脑/电脑周边</a></li>
+            <li><a href="">手机品牌</a></li>
+            <li><a href="">女装</a></li>
+            <li><a href="">男装</a></li>
+            <li><a href="">配饰</a></li>
+            <li><a href="">生活用品</a></li>
+            <li><a href="">箱包</a></li>
+        </ul>
+    </div>
+</div>
+<!--收货地址body部分开始-->
+<div class="border_top_cart">
+    <script type="text/javascript">
+        var checkoutConfig = {
+            addressMatch: 'common',
+            addressMatchVarName: 'data',
+            hasPresales: false,
+            hasBigTv: false,
+            hasAir: false,
+            hasScales: false,
+            hasGiftcard: false,
+            totalPrice: 244.00,
+            postage: 10,//运费
+            postFree: true,//活动是否免邮了
+            bcPrice: 150,//计算界值
+            activityDiscountMoney: 0.00,//活动优惠
+            showCouponBox: 0,
+            invoice: {
+                NA: "0",
+                personal: "1",
+                company: "2",
+                electronic: "4"
+            }
+        };
+        var miniCartDisable = true;
+    </script>
+    <div class="container">
+        <div class="checkout-box">
+            <form id="checkoutForm" action="<?php echo U('Home/pay/zhifu');?>" method="post">
+                <div class="checkout-box-bd">
+                    <!-- 地址状态 0：默认选择；1：新增地址；2：修改地址 -->
+                    <input type="hidden" name="Checkout[addressState]" id="addrState" value="0">
+                    <!-- 收货地址 -->
+                    <div class="xm-box">
+                        <div class="box-hd ">
+                            <h2 class="title">收货地址</h2>
+                            <!---->
+                        </div>
+                        <div class="box-bd">
+                            <div class="clearfix xm-address-list" id="checkoutAddrList">
+                                <?php if(is_array($collectinfo)): foreach($collectinfo as $key=>$c): ?><dl id="<?php echo ($c['id']); ?>" onclick="selectAddress(this)" class="item">
+                                        <dt>
+                                            <strong class="itemConsignee"><?php echo ($c['consignee']); ?></strong>
+                                            <span class="itemTag tag">家</span>
+                                        </dt>
+                                        <dd>
+                                            <p class="tel itemTel"><?php echo ($c['phone']); ?></p>
+                                            <p class="itemRegion"><?php echo ($c['addressinfo']); ?></p>
+                                            <span class="edit-btn J_editAddr">编辑</span>
+                                        </dd>
+                                        <dd style="display:none">
+                                            <input type="radio" name="Checkout[address]" class="addressId"
+                                                   value="10140916720030323">
+                                        </dd>
+                                    </dl><?php endforeach; endif; ?>
+                                <div class="item use-new-addr" id="J_useNewAddr" data-state="off">
+                                    <span class="iconfont icon-add"><img src="images/add_cart.png"/></span>
+                                    使用新地址
+                                </div>
+
+                            </div>
+
+                            <input type="hidden" name="newAddress[type]" id="newType" value="common">
+                            <input type="hidden" name="newAddress[consignee]" id="newConsignee">
+                            <input type="hidden" name="newAddress[province]" id="newProvince">
+                            <input type="hidden" name="newAddress[city]" id="newCity">
+                            <input type="hidden" name="newAddress[district]" id="newCounty">
+                            <input type="hidden" name="newAddress[address]" id="newStreet">
+                            <input type="hidden" name="newAddress[zipcode]" id="newZipcode">
+                            <input type="hidden" name="newAddress[tel]" id="newTel">
+                            <input type="hidden" name="newAddress[tag_name]" id="newTag">
+                            <!--点击弹出新增/收货地址界面start-->
+                            <div class="xm-edit-addr-box" id="J_editAddrBox">
+                                <div class="bd">
+                                    <div class="item">
+                                        <label>收货人姓名<span>*</span></label>
+                                        <input type="text" name="userAddress[consignee]" id="Consignee" class="input"
+                                               placeholder="收货人姓名" maxlength="15" autocomplete='off'>
+                                        <p class="tip-msg tipMsg"></p>
+                                    </div>
+                                    <div class="item">
+                                        <label>联系电话<span>*</span></label>
+                                        <input type="text" name="userAddress[tel]" class="input" id="Telephone"
+                                               placeholder="11位手机号" autocomplete='off'>
+                                        <p class="tel-modify-tip" id="telModifyTip"></p>
+                                        <p class="tip-msg tipMsg"></p>
+                                    </div>
+                                    <div class="item">
+                                        <label>地址<span>*</span></label>
+                                        <select name="userAddress[province]" id="Provinces" class="select-1">
+                                            <option>省份/自治区</option>
+                                        </select>
+                                        <select name="userAddress[city]" id="Citys" class="select-2" disabled>
+                                            <option>城市/地区/自治州</option>
+                                        </select>
+                                        <select name="userAddress[county]" id="Countys" class="select-3" disabled>
+                                            <option>区/县</option>
+                                        </select>
+                                        <textarea name="userAddress[street]" class="input-area" id="Street"
+                                                  placeholder="路名或街道地址，门牌号"></textarea>
+                                        <p class="tip-msg tipMsg"></p>
+                                    </div>
+                                    <div class="item">
+                                        <label>邮政编码<span>*</span></label>
+                                        <input type="text" name="userAddress[zipcode]" id="Zipcode" class="input"
+                                               placeholder="邮政编码" autocomplete='off'>
+                                        <p class="zipcode-tip" id="zipcodeTip"></p>
+                                        <p class="tip-msg tipMsg"></p>
+                                    </div>
+                                    <div class="item">
+                                        <label>地址标签<span>*</span></label>
+                                        <input type="text" name="userAddress[tag]" id="Tag" class="input"
+                                               placeholder='地址标签：如"家"、"公司"。限5个字内'>
+                                        <p class="tip-msg tipMsg"></p>
+                                    </div>
+                                </div>
+                                <div class="ft clearfix">
+                                    <button type="button" class="btn btn-lineDake btn-small " id="J_editAddrCancel">取消
+                                    </button>
+                                    <button type="button" class="btn btn-primary  btn-small " id="J_editAddrOk">保存
+                                    </button>
+                                </div>
+                            </div>
+                            <!--点击弹出新增/收货地址界面end-->
+                            <div class="xm-edit-addr-backdrop" id="J_editAddrBackdrop"></div>
+                        </div>
+                    </div>
+                    <!-- 收货地址 END-->
+                    <div id="checkoutPayment">
+                        <!-- 支付方式 -->
+                        <div class="xm-box">
+                            <div class="box-hd ">
+                                <h2 class="title">支付方式</h2>
+                            </div>
+                            <div class="box-bd">
+                                <ul id="checkoutPaymentList" class="checkout-option-list clearfix J_optionList">
+                                    <li class="item selected">
+                                        <input type="radio" name="Checkout[pay_id]" checked="checked" value="1">
+                                        <p>
+                                            支付宝在线支付 <span></span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- 支付方式 END-->
+                        <div class="xm-box">
+                            <div class="box-hd ">
+                                <h2 class="title">配送方式</h2>
+                            </div>
+                            <div class="box-bd">
+                                <ul id="checkoutShipmentList" class="checkout-option-list clearfix J_optionList">
+                                    <li class="item selected">
+                                        <input type="radio" data-price="0" name="Checkout[shipment_id]"
+                                               checked="checked" value="1">
+                                        <p>
+                                            快递配送（免运费） <span></span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- 配送方式 END-->                    <!-- 配送方式 END-->
+                    </div>
+                    <!-- 送货时间 -->
+                    <div class="xm-box">
+                        <div class="box-hd">
+                            <h2 class="title">送货时间</h2>
+                        </div>
+                        <div class="box-bd">
+                            <ul class="checkout-option-list clearfix J_optionList">
+                                <li class="item selected"><input type="radio" checked="checked"
+                                                                 name="Checkout[best_time]" value="1">
+                                    <p>不限送货时间<span>周一至周日</span></p></li>
+                                <li class="item "><input type="radio" name="Checkout[best_time]" value="2">
+                                    <p>工作日送货<span>周一至周五</span></p></li>
+                                <li class="item "><input type="radio" name="Checkout[best_time]" value="3">
+                                    <p>双休日、假日送货<span>周六至周日</span></p></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 送货时间 END-->
+                    <!-- 发票信息 -->
+                    <div id="checkoutInvoice">
+                        <div class="xm-box">
+                            <div class="box-hd">
+                                <h2 class="title">发票信息</h2>
+                            </div>
+                            <div class="box-bd">
+                                <ul class="checkout-option-list checkout-option-invoice clearfix J_optionList J_optionInvoice">
+                                    <li class="hide">
+                                        电子个人发票4
+                                    </li>
+                                    <li class="item selected">
+                                        <!--<label><input type="radio"  class="needInvoice" value="0" name="Checkout[invoice]">不开发票</label>-->
+                                        <input type="radio" checked="checked" value="4" name="Checkout[invoice]">
+                                        <p>电子发票（非纸质）</p>
+                                    </li>
+                                    <li class="item ">
+                                        <input type="radio" value="1" name="Checkout[invoice]">
+                                        <p>普通发票（纸质）</p>
+                                    </li>
+                                </ul>
+                                <p id="eInvoiceTip" class="e-invoice-tip ">
+                                    电子发票是税务局认可的有效凭证，可作为售后维权凭据，不随商品寄送。开票后不可更换纸质发票，如需报销请选择普通发票。<a
+                                        href="http://bbs.xiaomi.cn/thread-9285999-1-1.html" target="_blank">什么是电子发票？</a>
+                                </p>
+                                <div class="invoice-info nvoice-info-1" id="checkoutInvoiceElectronic"
+                                     style="display:none;">
+
+                                    <p class="tip">电子发票目前仅对个人用户开具，不可用于单位报销 ，不随商品寄送</p>
+                                    <p>发票内容：购买商品明细</p>
+                                    <p>发票抬头：个人</p>
+                                    <p>
+                                        <span class="hide"><input type="radio" value="4" name="Checkout[invoice_type]"
+                                                                  checked="checked" id="electronicPersonal"
+                                                                  class="invoiceType"></span>
+                                    <dl>
+                                        <dt>什么是电子发票?</dt>
+                                        <dd>&#903; 电子发票是纸质发票的映像，是税务局认可的有效凭证，与传统纸质发票具有同等法律效力，可作为售后维权凭据。</dd>
+                                        <dd>&#903; 开具电子服务于个人，开票后不可更换纸质发票，不可用于单位报销。</dd>
+                                        <dd>&#903; 您在订单详情的"发票信息"栏可查看、下载您的电子发票。<a
+                                                href="http://bbs.xiaomi.cn/thread-9285999-1-1.html" target="_blank">什么是电子发票？</a>
+                                        </dd>
+                                    </dl>
+                                    </p>
+                                </div>
+                                <div class="invoice-info invoice-info-2" id="checkoutInvoiceDetail"
+                                     style="display:none;">
+                                    <p>发票内容：购买商品明细</p>
+                                    <p>
+                                        发票抬头：请确认单位名称正确,以免因名称错误耽搁您的报销。注：合约机话费仅能开个人发票
+                                    </p>
+                                    <ul class="type clearfix J_invoiceType">
+                                        <li class="hide">
+                                            <input type="radio" value="0" name="Checkout[invoice_type]"
+                                                   id="noNeedInvoice">
+                                        </li>
+                                        <li class="">
+                                            <input class="invoiceType" type="radio" id="commonPersonal"
+                                                   name="Checkout[invoice_type]" value="1">
+                                            个人
+                                        </li>
+                                        <li class="">
+                                            <input class="invoiceType" type="radio" name="Checkout[invoice_type]"
+                                                   value="2">
+                                            单位
+                                        </li>
+                                    </ul>
+                                    <div id='CheckoutInvoiceTitle' class=" hide  invoice-title">
+                                        <label>单位名称：</label>
+                                        <input name="Checkout[invoice_title]" type="text" maxlength="49" value=""
+                                               class="input"> <span class="tip-msg J_tipMsg"></span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 发票信息 END-->
+                </div>
+                <div class="checkout-box-ft">
+                    <!-- 商品清单 -->
+                    <div id="checkoutGoodsList" class="checkout-goods-box">
+                        <div class="xm-box">
+                            <div class="box-hd">
+                                <h2 class="title">确认订单信息</h2>
+                            </div>
+                            <div class="box-bd">
+                                <dl class="checkout-goods-list">
+                                    <dt class="clearfix">
+                                        <span class="col col-1">商品名称</span>
+                                        <span class="col col-2">购买价格</span>
+                                        <span class="col col-3">购买数量</span>
+                                        <span class="col col-4">小计（元）</span>
+                                    </dt>
+                                    <dd class="item clearfix">
+                                        <div class="item-row">
+                                            <div class="col col-1">
+                                                <div class="g-pic">
+                                                    <img src="<?php echo ($goodsinfo['goods_img']); ?>"
+                                                         srcset="<?php echo ($goodsinfo['goods_img']); ?> 2x" width="40" height="40"/>
+                                                </div>
+                                                <div class="g-info">
+                                                    <a href="#">
+                                                        <input type="hidden" name="goods_name"
+                                                               value="<?php echo ($goodsinfo['goods_name']); ?>">
+                                                        <?php echo ($goodsinfo['goods_name']); ?> </a>
+                                                </div>
+                                            </div>
+
+                                            <div class="col col-2"><?php echo ($goodsinfo['shop_price']); ?></div>
+                                            <div class="col col-3"><?php echo ($goods_num); ?></div>
+                                            <div class="col col-4"><?php echo ($goodsinfo['shop_price']); ?>元</div>
+                                        </div>
+                                    </dd>
+
+
+                                    <div class="checkout-count clearfix">
+                                        <div class="checkout-count-extend xm-add-buy">
+                                            <h3 class="title">会员留言</h3></br>
+                                            <input type="text"/>
+
+                                        </div>
+                                        <!-- checkout-count-extend -->
+                                        <div class="checkout-price">
+                                            <ul>
+
+                                                <li>
+                                                    订单总额：<span><?php echo ($goodsinfo['shop_price']); ?>元</span>
+                                                </li>
+                                                <li>
+                                                    活动优惠：<span>-0元</span>
+                                                    <script type="text/javascript">
+                                                        checkoutConfig.activityDiscountMoney = 0;
+                                                        checkoutConfig.totalPrice = 244.00;
+                                                    </script>
+                                                </li>
+                                                <li>
+                                                    优惠券抵扣：<span id="couponDesc">-0元</span>
+                                                </li>
+                                                <li>
+                                                    运费：<span id="postageDesc">0元</span>
+                                                </li>
+                                            </ul>
+                                            <p class="checkout-total">应付总额：<span><strong id="totalPrice"><input
+                                                    type="hidden" name="goods_price" value="<?php echo ($goodsinfo['shop_price']); ?>"><?php echo ($goodsinfo['shop_price']); ?></strong>元</span>
+                                            </p>
+                                        </div>
+                                        <!--  -->
+                                    </div>
+                            </div>
+                        </div>
+
+                        <!--S 加价购 产品选择弹框 -->
+                        <div class="modal hide modal-choose-pro" id="J_choosePro-664">
+                            <div class="modal-header">
+                                <span class="close" data-dismiss='modal'><i class="iconfont">&#xe617;</i></span>
+                                <h3>选择产品</h3>
+                                <div class="more">
+                                    <div class="xm-recommend-page clearfix">
+                                        <a class="page-btn-prev   J_carouselPrev iconfont" href="javascript: void(0);">&#xe604;</a><a
+                                            class="page-btn-next  J_carouselNext iconfont" href="javascript: void(0);">&#xe605;</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-body J_chooseProCarousel">
+                                <div class="J_carouselWrap modal-choose-pro-list-wrap">
+                                    <ul class="clearfix J_carouselList">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn btn-disabled J_chooseProBtn">加入购物车</a>
+                            </div>
+                        </div>
+                        <!--E 加价购 产品选择弹框 -->
+
+                        <!--S 保障计划 产品选择弹框 -->
+
+
+                    </div>
+                    <input type="hidden" name="goods_id" value="<?php echo ($goodsinfo['goods_id']); ?>">
+                    <!-- 商品清单 END -->
+                    <input type="hidden" id="couponType" name="Checkout[couponsType]">
+                    <input type="hidden" id="couponValue" name="Checkout[couponsValue]">
+                    <div class="checkout-confirm">
+
+                        <a href="<?php echo U('Home/Shopping/shopping');?>" class="btn btn-lineDakeLight btn-back-cart">返回购物车</a>
+                        <input type="submit" class="btn btn-primary" value="立即购买" id="checkoutToPay"/>
+                    </div>
+                </div>
+        </div>
+
+        </form>
+
+    </div>
+
+    <!--  禮品卡提示 E-->
+
+    <!-- 保险弹窗 -->
+    <!-- 保险弹窗 -->
+
+
+    <script src="js/base.min.js"></script>
+
+    <script type="text/javascript" src="js/address_all.js"></script>
+    <script type="text/javascript" src="js/checkout.min.js"></script>
+</div>
+
+<!--收货地址body部分结束-->
+
+
+<!-- footer -->
+<footer class="mt20 center">
+
+    <div class="mt20">小米商城|MIUI|米聊|多看书城|小米路由器|视频电话|小米天猫店|小米淘宝直营店|小米网盟|小米移动|隐私政策|Select Region</div>
+    <div>?mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2014]0059-0009号</div>
+    <div>违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</div>
+
+</footer>
+
+</body>
+
+</html>
+<script type="text/javascript" src="/secondhand/Public/jquery/jquery-3.3.1.min.js"></script>
+<script>
+    var userId = "<?php echo session('userid');?>";//用户id
+    var message = '';//提示消息
+    //弹出框
+    function narn(type, message) {
+        naranja()[type]({
+            title: '新消息提示',
+            text: message,
+            timeout: 3000,
+        })
+    }
+
+    //检查是否登陆
+    function checkLogin() {
+        if (userId != null && userId != "") {
+            window.location.href = "<?php echo U('Home/Shopping/shopping');?>";
+        } else {
+            message = '请先选择登陆！'
+            narn('error', message);
+        }
+    }
+
+    $(document).ready(function () {
+        if (userId != null && userId != "") {
+            $('#userInfo').append('<li id="user"><?php echo (session('username')); ?></li>');
+            $('#userInfo').append('<li><a>|</a></li>');
+            $('#userInfo').append('<li><a href="<?php echo U('Home/MyInfo/myInfo');?>" style="cursor:pointer">个人中心</a></li>');
+            $('#userInfo').append('<li><a>|</a></li>');
+            $('#userInfo').append('<li><a style="cursor:pointer">消息通知</a></li>');
+            $('#userInfo').append('<li><a>|</a></li>');
+            $('#userInfo').append("<li><a style=\"cursor:pointer\" href='<?php echo U("Home/OrderCentre/orderCentre");?>'>我的订单</a></li>");
+            $('#userInfo').append('<li><a>|</a></li>');
+            $('#userInfo').append("<li><a style=\"cursor:pointer\" href='<?php echo U("Home/Main/exitLogin");?>'>退出</a></li>");
+        } else {
+            $('#userInfo').append("<li><a style=\"cursor:pointer\" href='<?php echo U("Home/Login/login");?>'>登陆</a></li>");
+            $('#userInfo').append('<li><a>|</a></li>');
+            $('#userInfo').append("<li><a style=\"cursor:pointer\" href='<?php echo U("Home/Register/register");?>'>注册</a></li>");
+        }
+        //查询购物车的数量
+        $.ajax({
+            url: '<?php echo U("Home/GoodsDetails/count");?>',//商品的数量地址
+            dataType: 'json',
+            type: 'post',
+            success: function (data) {
+                console.log(data);
+                if (data == null || data == "") {
+                    $('#car_shuliang').append('<span>(0)</span>');
+                } else {
+                    $('#car_shuliang').append('<span>(' + data + ')</span>');
+                }
+            }
+        });
+
+    });
+
+    //选中收货地址
+    function selectAddress(info) {
+        var id = info.id;
+        debugger;
+        $('#' + id + '').css('border','1px solid red');
+    }
+</script>

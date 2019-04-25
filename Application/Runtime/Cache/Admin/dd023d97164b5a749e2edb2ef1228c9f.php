@@ -1,0 +1,159 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>后台登陆</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+    <link rel="stylesheet" href="/secondhand/Public/Admin/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/secondhand/Public/Admin/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/secondhand/Public/Admin/css/form-elements.css">
+    <link rel="stylesheet" href="/secondhand/Public/Admin/css/style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+
+    <!-- Javascript -->
+    <script src="/secondhand/Public/Admin/js/jquery-1.11.1.min.js"></script>
+    <script src="/secondhand/Public/Admin/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/secondhand/Public/Admin/js/jquery.backstretch.min.js"></script>
+    <script src="/secondhand/Public/Admin/js/scripts.js"></script>
+
+    <!--[if lt IE 10]>
+    <script src="/secondhand/Public/Admin/js/placeholder.js"></script>
+    <![endif]-->
+
+    <!-- Favicon and touch icons -->
+    <link rel="shortcut icon" href="/secondhand/Public/Admin/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/secondhand/Public/Admin/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/secondhand/Public/Admin/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/secondhand/Public/Admin/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/secondhand/Public/Admin/ico/apple-touch-icon-57-precomposed.png">
+  <script>
+
+      $(document).ready(function() {
+          /*
+                Fullscreen background
+            */
+          $.backstretch([
+              "/secondhand/Public/Admin/img/backgrounds/1.jpg"
+              , "/secondhand/Public/Admin/img/backgrounds/4.jpg"
+              , "/secondhand/Public/Admin/img/backgrounds/5.jpg"
+              , "/secondhand/Public/Admin/img/backgrounds/6.jpg"
+              , "/secondhand/Public/Admin/img/backgrounds/2.jpg"
+              , "/secondhand/Public/Admin/img/backgrounds/3.jpg"
+          ], {duration: 3000, fade: 750});
+
+          /*
+              Form validation
+          */
+          $('.login-form input[type="text"], .login-form input[type="password"], .login-form textarea').on('focus', function() {
+              $(this).removeClass('input-error');
+          });
+
+          $('.login-form').on('submit', function(e) {
+
+              $(this).find('input[type="text"], input[type="password"], textarea').each(function(){
+                  if( $(this).val() == "" ) {
+                      e.preventDefault();
+                      $(this).addClass('input-error');
+                  }
+                  else {
+                      $(this).removeClass('input-error');
+                  }
+              });
+
+          });
+
+
+      });
+
+  </script>
+</head>
+
+<body>
+
+<!-- Top content -->
+<div class="top-content">
+
+    <div class="inner-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 text">
+                    <h1><strong>欢迎你</strong> Welcome</h1>
+                    <div class="description">
+                        <p>
+                            这是一个关于2016.01级的一个毕业项目后台 如果你没有后台管理账号
+                            请点击跳转前台 <a href="#"><strong>AZMIND</strong></a>, 但我们也随时欢迎你加入我们管理团队点击下方QQ加入我们
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 form-box">
+                    <div class="form-top">
+                        <div class="form-top-left">
+                            <h3>管理员登陆</h3>
+                            <p>Enter your username and password to log on:</p>
+                        </div>
+                        <div class="form-top-right">
+                            <i class="fa fa-key"></i>
+                        </div>
+                    </div>
+                    <div class="form-bottom">
+                        <form role="form" action="<?php echo U('Admin/User/login');?>" method="post" class="login-form">
+                            <div class="form-group">
+                                <label class="sr-only" for="form-username">Username</label>
+                                <input type="text" name="form-username" placeholder="Username..." class="form-username form-control" id="form-username">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="form-password">Password</label>
+                                <input type="password" name="form-password" placeholder="Password..." class="form-password form-control" id="form-password">
+                            </div>
+                            <button type="submit" class="btn">Sign in!</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 social-login">
+                    <h3>联系我们:</h3>
+
+                    <div class="social-login-buttons">
+                        <a class="btn btn-link-1 btn-link-1-facebook" href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=827544120" target="class" >
+                            <i><img src="/secondhand/Public/Admin/img/backgrounds/QQ.png" style="width: 25px"></i>Admin:XY
+                        </a>
+                        <a class="btn btn-link-1 btn-link-1-twitter" href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1243443888" target="class">
+                            <i><img src="/secondhand/Public/Admin/img/backgrounds/QQ.png" style="width: 25px"></i> Admin:YHF
+                        </a>
+                        <a class="btn btn-link-1 btn-link-1-google-plus" href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1321743486" target="class">
+                            <i><img src="/secondhand/Public/Admin/img/backgrounds/QQ.png" style="width: 25px"></i> Admin:ZFQ
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<audio autoplay="autoplay">
+    <source src="/secondhand/Public/music/体面.mp3" type="audio/ogg" />
+</audio>
+
+</body>
+
+</html>

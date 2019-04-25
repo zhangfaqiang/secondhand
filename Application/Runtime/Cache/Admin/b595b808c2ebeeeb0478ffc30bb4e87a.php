@@ -1,0 +1,108 @@
+<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <meta content="" name="copyright"/>
+    <title>
+        二手交易系统
+    </title>
+
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="/secondhand/Public/Admin/bootstrap/css/bootstrap.css">
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="/secondhand/Public/Admin/bootstrap/js/bootstrap.js"></script>
+    <link href="/secondhand/Public/admin/easyui/themes/default/easyui.css" rel="stylesheet" type="text/css"/>
+    <link href="/secondhand/Public/admin/css/wu.css" rel="stylesheet" type="text/css"/>
+    <link href="/secondhand/Public/admin/css/icon.css" rel="stylesheet" type="text/css"/>
+    <link href="/secondhand/Public/admin/Uploadify/uploadify.css" rel="stylesheet"/>
+    <script src="/secondhand/Public/admin/js/jquery-1.8.0.min.js" type="text/javascript">
+    </script>
+    <script src="/secondhand/Public/admin/Uploadify/jquery.uploadify.min.js" type="text/javascript">
+    </script>
+    <script src="/secondhand/Public/admin/easyui/jquery.easyui.min.js" type="text/javascript">
+    </script>
+    <script src="/secondhand/Public/admin/easyui/locale/easyui-lang-zh_CN.js" type="text/javascript">
+    </script>
+    <script src="/secondhand/Public/admin/js/jquery.form.min.js" type="text/javascript">
+    </script>
+    <script src="/secondhand/Public/admin/js/jquery.seat-charts.min.js" type="text/javascript">
+    </script>
+
+</head>
+<body class="easyui-layout" onload="">
+<!-- begin of header -->
+<div class="wu-header" data-options="region:'north',border:false,split:true">
+    <div class="wu-header-left">
+        <h1>
+            二手交易系统
+        </h1>
+    </div>
+    <div class="wu-header-right">
+        <p>
+            欢迎
+            <?php echo (cookie('user')); ?>
+            <a href="<?php echo U('Admin/index/eliminate');?>" onclick="">
+                清除缓存
+            </a>
+            |
+            <a href="<?php echo U('Admin/index/logout');?>">
+                安全退出
+            </a>
+        </p>
+        <p>
+            <a id="nowTime">
+            </a>
+        </p>
+    </div>
+</div>
+<!-- end of header -->
+<!-- begin of sidebar -->
+<div class="wu-sidebar" data-options="region:'west',split:true,border:true,title:'导航菜单'">
+    <div class="easyui-accordion" data-options="border:false,fit:true">
+        <ul id="tt" data-options="lines:true ,animate:true">
+
+        </ul>
+    </div>
+</div>
+
+<script>
+
+    $(function () {
+//加载数菜单
+        $('#tt').tree({
+            url: '<?php echo U("Admin/Index/getTree","","");?>',
+            onClick: function (node) {
+                var flg = $('#wu-tabs').tabs('exists', node.text);//判断节点的text存在与否
+                //如果存在选项卡就就选中这个选项卡
+                if (node.href != 'NULL' && !flg) {
+                    $('#wu-tabs').tabs('add', {
+                        title: node.text,
+                        iconCls: node.iconCls,
+                        closable: true,
+                        href: node.href
+                    });
+                } else {
+                    $('#wu-tabs').tabs('select', node.text);
+                }
+            }
+        });
+    });
+</script>
+<!-- end of sidebar -->
+<!-- begin of main -->
+<div class="wu-main" data-options="region:'center'">
+    <div class="easyui-tabs" data-options="border:false,fit:true" id="wu-tabs">
+        <div data-options="href:'<?php echo U('Index/info');?>',closable:false,iconCls:'icon-tip',cls:'pd3'" title="欢迎使用">
+
+        </div>
+    </div>
+</div>
+<!-- end of main -->
+<!-- begin of footer -->
+<div class="wu-footer" data-options="region:'south',border:true,split:true">
+    © 2018 Copy Rights Reserved
+</div>
+<!-- end of footer -->
+</body>
+</html>

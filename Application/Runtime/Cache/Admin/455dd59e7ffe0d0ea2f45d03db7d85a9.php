@@ -1,0 +1,273 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="/secondhand/Public/admin/easyui/themes/jquery.min.js"></script>
+    <script type="text/javascript" src="/secondhand/Public/admin/easyui/themes/jquery.easyui.min.js"></script>
+</head>
+<body>
+
+
+<div class="easyui-layout" data-options="fit:true">
+    <div data-options="region:'center',border:false">
+        <!-- Begin of toolbar -->
+        <div id="order-toolbar">
+            <div class="wu-toolbar-search">
+                <label>
+                    订单状态
+                </label>
+                <select class="easyui-combobox" id="fh_zhuangtai" name="fh_zhuangtai" style="width: 120px;"
+                        panelheight="auto">
+                    <option value="-1">请选择</option>
+                    <option value="0">已发货</option>
+                    <option value="1">未发货</option>
+                </select>
+                <a class="easyui-linkbutton" href="#" iconcls="icon-search" onclick="startSeach()"
+                   style="margin-left:30px;">
+                    开始检索
+                </a>
+            </div>
+        </div>
+        <!-- End of toolbar -->
+        <table class="easyui-datagrid" id="order" toolbar="#order-toolbar" data-options="fit:true">
+        </table>
+    </div>
+</div>
+<!--消息框开始-->
+<div id="order_dlg" class="easyui-dialog" data-options="closed:true,iconCls:'icon-save'"
+     style="width:600px; padding:10px;">
+    <form id="orderxiugaiorder_form" method="post" name="orderxiugaiorder_form">
+        <input type="hidden" name="dlg_user_order" class="easyui-textbox"
+               id="dlg_user_order"/>
+        <table class="disDorm_table">
+            <tr>
+                <td width="20%" align="right">用户名字:</td>
+                <td>
+                    <input type="text" name="order_username" class="easyui-textbox"
+                           id="order_username" style="width:120px"/>
+                </td>
+                <td width="20%" align="right">收货人地址:</td>
+                <td>
+                    <input type="text" name="order_useraddress" class="easyui-textbox"
+                           id="order_useraddress" style="width:120px"/>
+                </td>
+            </tr>
+            <tr>
+
+                <td width="20%" align="right">用户电话:</td>
+                <td>
+                    <input type="text" name="order_phone" class="easyui-textbox"
+                           id="order_phone" style="width:120px"/>
+                </td>
+                <td align="right">收货人名字</td>
+                <td><input type="text" name="user_address_name" style="width:120px" class="easyui-textbox"></td>
+
+
+            </tr>
+            <tr>
+
+                <td width="20%" align="right">商品价钱:</td>
+                <td>
+                    <input type="text" name="order_usertotal" class="easyui-textbox"
+                           id="order_usertotal" style="width:120px"/>
+                </td>
+                <td width="40%" align="right">
+
+                    <input type="radio" name="order_zhuangtai" value="0"><span
+                        style="color: red">未发货</span></input>
+
+                </td>
+                <td align="right">
+
+                    <input type="radio" name="order_zhuangtai" value="1"><span
+                        style="color: red">已发货</span></input>
+                </td>
+            </tr>
+            <tr>
+                 </tr>
+
+        </table>
+    </form>
+</div>
+<div id="dlg_shanchuorder" class="easyui-dialog" data-options="closed:true,iconCls:'icon-save'"
+     style="width:300px; padding:10px;">
+    <H4>将永久删除此纪录，是否继续</H4>
+    <form id="shanchu_formorder" name="shanchu_formorder">
+        <input class="easyui-textbox" type="hidden" name="shanchu_user_order" id="shanchu_user_order"/>
+    </form>
+</div>
+<script>
+
+    //商品列表表格
+    $(function () {
+        $('#order').datagrid({
+            url: '<?php echo U("Admin/Index/getOrder","","");?>',
+            rownumbers: true,
+            pagination: true,
+            fitColumns: true,
+            fit: true,
+            singleSelect: true,
+            pageSize: 10,
+            pageList: [10, 50, 100],
+            remoteSort: true,
+            multiSort: true,
+            loadMsg: "加载中。。。",
+            columns: [[
+                {field: 'user_id', title: '用户id', width: 100, hidden: true},
+                {field: 'user_name', title: '用户名字', width: 100},
+                {field: 'user_address', title: '收货人地址', width: 100},
+                {field: 'user_phone', title: '收货人电话', width: 100},
+                {field: 'user_total', title: '价格', width: 100},
+                {field: 'user_address_name', title: '收获人名字', width: 100},
+                {field: 'good_statename', title: '发货状态', width: 150},
+                {field: 'good_stateid', title: '发货状态', width: 150,hidden:true},
+                {field: 'user_order', title: '订单号', width: 150},
+                {
+                    field: 'bianji', title: '操作', width: 100, formatter: function (value, row, index) {
+                        return "<a href='#' onclick='orderxiugai(" + index + ")' id='xiugai' class='easyui-linkbutton' name='xiugai'>修改</a>" + "<a href='#' onclick='ordershanchu(" + index + ")' id='shanchu' class='easyui-linkbutton' name='shanchu'>删除</a>";
+                    }
+                }
+            ]],
+
+            queryParams: {
+                fh_zhuangtai: -1
+            }, onLoadSuccess: function (data) {
+                $("a[name='xiugai']").linkbutton({
+                    plain: true,
+                    iconCls: 'icon-edit'
+                });
+                $("a[name='shanchu']").linkbutton({
+                    plain: true,
+                    iconCls: 'icon-cancel'
+                });
+            }
+        });
+    });
+
+    //查询按钮
+    function startSeach() {
+        var queryParams = $('#order').datagrid("options").queryParams;
+
+        queryParams.fh_zhuangtai = $('#fh_zhuangtai').combobox("getValue");
+
+        $('#order').datagrid("reload");
+
+    }
+
+    function orderxiugai(index) {
+        $('#order_dlg').dialog({
+            title: '修改订单',
+            closed: false,
+            modal: true,
+            top: 30,
+            buttons: [
+                {
+                    text: '确认',
+                    iconCls: 'icon-edit',
+                    handler: function () {
+                        orderxiugai_formSubmit();
+                        $('#order_dlg').dialog('close');
+                         $('#order').datagrid("reload");
+                    }
+                }, {
+                    text: '取消',
+                    iconCls: 'icon-cancel',
+                    handler: function () {
+                        $('#order_dlg').dialog('close')
+                    }
+                }
+            ]
+        });
+        var row = $('#order').datagrid('getRows');//获取表格中所有的行
+        if (row) {
+
+            $('input[textboxname=order_username]').textbox('setValue', row[index].user_name);
+            $('input[textboxname=dlg_user_order]').textbox('setValue', row[index].user_order);
+
+            $('input[textboxname=order_useraddress]').textbox('setValue', row[index].user_address);//收货人地址
+            $('input[textboxname=order_phone]').textbox('setValue', row[index].user_phone);
+            $('input[textboxname=order_usertotal]').textbox('setValue', row[index].user_total);
+            $('input[textboxname=user_address_name]').textbox('setValue', row[index].user_address_name);
+            $("input[name=order_zhuangtai][value='" + row[index].good_stateid + "']").attr("checked", true);
+
+        }
+    }
+
+    var goods_sn;
+
+    //删除表单的数据
+    function ordershanchu(index) {
+
+        var rows = $('#order').datagrid('getRows');//获取表格中所有的行
+        goods_sn = rows[index].user_order;
+        $('input[textboxname=shanchu_user_order]').textbox('setValue', rows[index].user_order);
+
+        $('#dlg_shanchuorder').dialog({
+            title: '删除商品',
+            closed: false,
+            modal: true,
+            top: 30,
+            buttons: [
+                {
+                    text: '确认',
+                    iconCls: 'icon-edit',
+                    handler: function () {
+                        $('#shanchu_formorder').ajaxSubmit({
+                            url: '<?php echo U("Admin/Index/order_shanchu","","");?>',
+                            type: 'post',
+                            dataType: 'json',
+                            success: function (data) {
+
+                                if (data.code = -1) {
+                                    $.messager.show({
+                                        title: '系统提示',
+                                        msg: '删除成功'
+                                    });
+
+                                }
+                            }
+                        });
+
+                        $('#dlg_shanchuorder').dialog('close');
+                       $('#order').datagrid("reload");
+                    }
+                }, {
+                    text: '取消',
+                    iconCls: 'icon-cancel',
+                    handler: function () {
+                        $('#dlg_shanchuorder').dialog('close')
+                    }
+                }
+            ]
+        })
+    }
+
+    //修改表单的数据提交
+    function orderxiugai_formSubmit() {
+        $('#orderxiugaiorder_form').ajaxSubmit({
+            url: '<?php echo U("Admin/Index/orderxiugai_formSubmit","","");?>',
+            dataType: 'json',
+            type: 'post',
+            beforeSubmit: function (arr, $form, options) {
+
+            },
+            success: function (data) {
+
+                $.messager.show({
+                    title: '系统提示',
+                    msg: '修改成功'
+                })
+            }, error: function (xhr, status, error, $form) {
+                $.messager.show({
+                    title: '系统提示',
+                    msg: "修改失败"
+                })
+            },
+            complete: function (xhr, status, $form) {
+            }
+        });
+    }
+</script>
+</body>
+</html>

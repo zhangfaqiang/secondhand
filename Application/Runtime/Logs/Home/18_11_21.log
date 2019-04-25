@@ -1,0 +1,352 @@
+[ 2018-11-21T19:11:08+08:00 ] 127.0.0.1 /secondhand/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012599s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.171122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.171309s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.441444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.441625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.025268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009280s ]
+
+[ 2018-11-21T19:11:08+08:00 ] 127.0.0.1 /secondhand/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013265s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.171120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.171290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.441272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.441440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.024962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008613s ]
+
+[ 2018-11-21T19:11:10+08:00 ] 127.0.0.1 /secondhand/Home/Login/captcha.html?0.7602167194315401
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001510s ]
+
+[ 2018-11-21T19:11:26+08:00 ] 127.0.0.1 /secondhand/Home/Login/gotoLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0870s ]
+SQL: SELECT * FROM `login` WHERE `user_name` = 'zh' LIMIT 1   [ RunTime:0.0360s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000484s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003194s ]
+
+[ 2018-11-21T19:11:29+08:00 ] 127.0.0.1 /secondhand/Home/Main/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001784s ]
+NOTIC: D方法实例化没找到模型类Admin\Model\GoodsModel
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1376s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_desc`,`shop_price`,`thumb_img`,`goods_img`,`market_price` FROM `goods` WHERE `is_hot` = 3 AND `good_state` = 1 ORDER BY goods_id desc LIMIT 0,4   [ RunTime:0.0169s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_desc`,`shop_price`,`thumb_img`,`goods_img`,`market_price` FROM `goods` WHERE `is_new` = 2 AND `good_state` = 1 ORDER BY goods_id desc LIMIT 0,4   [ RunTime:0.0005s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_desc`,`shop_price`,`thumb_img`,`goods_img`,`market_price` FROM `goods` WHERE `in_on_sale` = 4 AND `good_state` = 1 ORDER BY goods_id desc LIMIT 0,4   [ RunTime:0.0016s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_desc`,`shop_price`,`thumb_img`,`goods_img`,`market_price` FROM `goods` WHERE `is_best` = 1 AND `good_state` = 1 ORDER BY goods_id desc LIMIT 0,4   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000461s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000605s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.152961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004024s ]
+
+[ 2018-11-21T19:11:30+08:00 ] 127.0.0.1 /secondhand/Home/GoodsDetails/count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001703s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.3204s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `uid` = 21 GROUP BY uid LIMIT 1   [ RunTime:0.1193s ]
+
+[ 2018-11-21T19:12:13+08:00 ] 127.0.0.1 /secondhand/Home/Leibiao/leibiao.html?brand_id=1&brand_name=%27%E6%89%8B%E6%9C%BA%E5%A3%B3%27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002503s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `goods` WHERE `brand_id` = 1  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000722s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003048s ]
+
+[ 2018-11-21T19:12:13+08:00 ] 127.0.0.1 /secondhand/Home/GoodsDetails/count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0738s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `uid` = 21 GROUP BY uid LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2018-11-21T19:12:29+08:00 ] 127.0.0.1 /secondhand/Home/Main/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001978s ]
+NOTIC: D方法实例化没找到模型类Admin\Model\GoodsModel
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0204s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_desc`,`shop_price`,`thumb_img`,`goods_img`,`market_price` FROM `goods` WHERE `is_hot` = 3 AND `good_state` = 1 ORDER BY goods_id desc LIMIT 0,4   [ RunTime:0.0010s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_desc`,`shop_price`,`thumb_img`,`goods_img`,`market_price` FROM `goods` WHERE `is_new` = 2 AND `good_state` = 1 ORDER BY goods_id desc LIMIT 0,4   [ RunTime:0.0009s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_desc`,`shop_price`,`thumb_img`,`goods_img`,`market_price` FROM `goods` WHERE `in_on_sale` = 4 AND `good_state` = 1 ORDER BY goods_id desc LIMIT 0,4   [ RunTime:0.0009s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_desc`,`shop_price`,`thumb_img`,`goods_img`,`market_price` FROM `goods` WHERE `is_best` = 1 AND `good_state` = 1 ORDER BY goods_id desc LIMIT 0,4   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000472s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000673s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005089s ]
+
+[ 2018-11-21T19:12:29+08:00 ] 127.0.0.1 /secondhand/Home/GoodsDetails/count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004627s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0207s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `uid` = 21 GROUP BY uid LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-11-21T19:14:42+08:00 ] 127.0.0.1 /secondhand/Home/Leibiao/leibiao.html?brand_id=1&brand_name=%27%E6%89%8B%E6%9C%BA%E5%A3%B3%27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002640s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `goods` WHERE `brand_id` = 1  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002701s ]
+
+[ 2018-11-21T19:14:42+08:00 ] 127.0.0.1 /secondhand/Home/GoodsDetails/count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0309s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `uid` = 21 GROUP BY uid LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-11-21T19:14:44+08:00 ] 127.0.0.1 /secondhand/Home/GoodsDetails/goodsDetails/goods_id/57.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+NOTIC: D方法实例化没找到模型类Admin\Model\GoodsModel
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0413s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 57 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000576s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005330s ]
+
+[ 2018-11-21T19:14:44+08:00 ] 127.0.0.1 /secondhand/Home/GoodsDetails/count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002096s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0338s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `uid` = 21 GROUP BY uid LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-11-21T19:14:48+08:00 ] 127.0.0.1 /secondhand/Home/Shopping/shopping.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001765s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.1555s ]
+SQL: SELECT * FROM `car` WHERE `uid` = 21  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000777s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006086s ]
+
+[ 2018-11-21T19:43:38+08:00 ] 127.0.0.1 /secondhand/Home/GoodsDetails/count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004190s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0194s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `uid` = 21 GROUP BY uid LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2018-11-21T19:43:39+08:00 ] 127.0.0.1 /secondhand/Home/GoodsDetails/count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002547s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `uid` = 21 GROUP BY uid LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-21T19:43:40+08:00 ] 127.0.0.1 /secondhand/Home/Leibiao/leibiao.html?brand_id=1&brand_name=%27%E6%89%8B%E6%9C%BA%E5%A3%B3%27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `goods` WHERE `brand_id` = 1  [ RunTime:0.0045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001456s ]
+
+[ 2018-11-21T19:43:40+08:00 ] 127.0.0.1 /secondhand/Home/GoodsDetails/count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002898s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0164s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `uid` = 21 GROUP BY uid LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-11-21T19:43:41+08:00 ] 127.0.0.1 /secondhand/Home/Main/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002545s ]
+NOTIC: D方法实例化没找到模型类Admin\Model\GoodsModel
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0120s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_desc`,`shop_price`,`thumb_img`,`goods_img`,`market_price` FROM `goods` WHERE `is_hot` = 3 AND `good_state` = 1 ORDER BY goods_id desc LIMIT 0,4   [ RunTime:0.0006s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_desc`,`shop_price`,`thumb_img`,`goods_img`,`market_price` FROM `goods` WHERE `is_new` = 2 AND `good_state` = 1 ORDER BY goods_id desc LIMIT 0,4   [ RunTime:0.0005s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_desc`,`shop_price`,`thumb_img`,`goods_img`,`market_price` FROM `goods` WHERE `in_on_sale` = 4 AND `good_state` = 1 ORDER BY goods_id desc LIMIT 0,4   [ RunTime:0.0006s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_desc`,`shop_price`,`thumb_img`,`goods_img`,`market_price` FROM `goods` WHERE `is_best` = 1 AND `good_state` = 1 ORDER BY goods_id desc LIMIT 0,4   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006672s ]
+
+[ 2018-11-21T19:43:41+08:00 ] 127.0.0.1 /secondhand/Home/GoodsDetails/count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002228s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0167s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `car` WHERE `uid` = 21 GROUP BY uid LIMIT 1   [ RunTime:0.0008s ]
+

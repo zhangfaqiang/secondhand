@@ -1,0 +1,40 @@
+<?php
+
+namespace Home\Controller;
+
+use Think\Controller;
+
+class MainController extends Controller
+{
+    function main()
+
+    {
+        $goodsModel = D('Admin/goods');
+        //热销
+        $hot = $goodsModel->field('goods_id,goods_name,goods_desc,shop_price,thumb_img,goods_img,market_price')->where('is_hot=1')->order('goods_id desc')->limit('0,4')->select();
+        //var_dump($hot);
+        $new = $goodsModel->field('goods_id,goods_name,goods_desc,shop_price,thumb_img,goods_img,market_price')->where('is_new=1')->order('goods_id desc')->limit('0,4')->select();
+        $sale = $goodsModel->field('goods_id,goods_name,goods_desc,shop_price,thumb_img,goods_img,market_price')->where('in_on_sale=1')->order('goods_id desc')->limit('0,4')->select();
+        $best = $goodsModel->field('goods_id,goods_name,goods_desc,shop_price,thumb_img,goods_img,market_price')->where('is_best=1')->order('goods_id desc')->limit('0,4')->select();
+        $this->assign('best', $best);
+        $this->assign('sale', $sale);
+        $this->assign('new', $new);
+        $this->assign('hot', $hot);
+        //最
+        $this->display();
+    }
+
+
+    /**
+     * 退出登陆
+     */
+    function exitLogin()
+    {
+        $_SESSION = array();
+        session('[destroy]'); // 销毁session
+        //重定向到登录页面
+        redirect(U('Home/Main/main'));
+    }
+}
+
+?>
